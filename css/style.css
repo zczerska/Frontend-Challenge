@@ -1,0 +1,166 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #33378F;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  font-size: 10px;
+  }
+
+ hr.divide {
+  background-color: #999BC7;
+  margin-left: 20%;
+  margin-right: 3%;
+ }
+
+ hr.direct{
+   background-color: #999BC7;
+   margin-left: 3%;
+   margin-right: 3%;
+ }
+  .container {
+    margin: auto;
+    width: 100%;
+  }
+  .bustop {
+    float: left;
+    margin-left: 6%;
+    height: 1.6em;
+    width: 1.6em;
+    margin-top: 2%;
+  }
+  .icon{
+    position:absolute;
+    height: 2em;
+    width: 2em;
+    margin-left: 85%;
+    margin-top: 5%;
+  }
+  .icons{
+    position:absolute;
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 85%;
+    margin-top: 5%;
+  }
+
+  .icona{
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    margin-left: 85%;
+    margin-top: 5%;
+    transform: rotate(90deg);
+  }
+
+  .icone{
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 84%;
+    transform: rotate(90deg);
+    margin-top: 5%;
+  }
+
+  .top {
+    display: inline-block;
+    background-color: #999BC7;
+    border:.1em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-color: #999BC7;
+    width: 95%;
+    height: 3.2em;
+    margin-left: 2.5%;
+    margin-top: 3em;
+  }
+
+  .top> h1 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 1.3em;
+    margin-left: 17%;
+    margin-top: 3%;
+  }
+
+  .dir{
+    display: inline-block;
+    height: 6.5em;
+    width: 100%;
+  }
+
+  .dir> h1 {
+    font-size: 3.2em;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 6%;
+  }
+
+  .bus{
+    display: inline-block;
+    height: 6.5em;
+    width: 100%;
+  }
+
+  .bus> h1{
+    position: absolute;
+    font-size:2.6em;
+    font-weight:800;
+    vertical-align: middle;
+    margin-left: 3%;
+    margin-top: .75em;
+
+
+  }
+
+  .bus> h2{
+    position: absolute;
+    font-size: 1.65em;
+    font-weight: 500;
+    margin-left:23% ;
+    margin-top: 1.75em;
+
+}
+
+.bus> p{
+  position: absolute;
+  font-size: 1em;
+  font-weight:400;
+  margin-left:23% ;
+  margin-top: 1.75em;
+  }
+
+.late{
+  color:#FF9999;
+}
+
+.map{
+  display: inline-block;
+  height: 35em;
+  width: 100%;
+
+}
+
+.addtl{
+  display: inline-block;
+  background-color: #999BC7;
+  height: 3em;
+  width: 100%;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.left{
+  float: left;
+  margin-left:3%;
+  margin-top: 3%;
+}
+
+.right{
+  float:right;
+  margin-right:3%;
+  margin-top: 3%;
+}
