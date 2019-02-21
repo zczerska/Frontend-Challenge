@@ -24,6 +24,10 @@ body {
     margin: auto;
     width: 100%;
   }
+
+  .iphone{
+    display: inline-block;
+  }
   .bustop {
     float: left;
     margin-left: 6%;
