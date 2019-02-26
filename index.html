@@ -12,47 +12,128 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
   </head>
   <body>
-    <section class="container">
-        <div class="iphone">
-          <img src="images/iphone.png" alt="iphone navbar">
-        </div>
-        <div class = "top">
+  <main class="container">
+    <section>
+        <article class="iphone">
+          <img src="images/statusbar.png" alt="iPhone status bar">
+          <nav class="nav">
+            <img src="images/back.png" alt="back icon" class="back">
+            <p class="navtxt">Washington & State</p>
+
+          </nav>
+        </article>
+
+    </section>
+    <section>
+        <header class = "top">
             <img src="images/bus-title.png" alt="bus icon" class="bustop">
             <h1>Bus Routes</h1>
-        </div>
-        <div class = "dir">
+        </header>
+    </section>
+    <section>
+        <menuitem class = "dir">
             <img src="images/arrow1.png" alt="arrow icon" class="icone">
             <h1>Eastbound.</h1>
-        </div>
-      <hr class = "direct">
-        <div class = "bus">
-          <h1>60</h1>
-          <p>Arrives in 8 min</p>
-          <h2>Randolph/Harbor Dr 1:25p</h2>
-          <img src="images/arrow1.png" alt="arrow icon" class="icon">
-        </div>
-      <hr class="divide">
-        <div class = "bus">
-            <h1>124</h1>
-            <p>Late: Arrives in 6 min</p>
-            <h2>Navy Pier <span class="late">1:23p</span></h2>
-            <img src="images/arrow1.png" alt="arrow icon" class="icona">
-        </div>
+        </menuitem>
+      <article>
+        <ul class = "bus">
+          <li class="num">60</li>
+          <li class="small">Arrives in 8 min</li>
+          <li class="big">Randolph/Harbor Dr 1:25p</li>
+          <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+        </ul>
+      </article>
+
+      <article>
+          <ul class = "bus">
+            <li class="num">124</li>
+            <li class="small">Late: Arrives in 6 min</li>
+            <li class="big">Navy Pier <span class="late">1:23p</span></li>
+            <li><img src="images/arrowb.png" alt="arrow icon" class="icona"></li>
+          </ul>
+      </article>
+      <figure>
         <img src="images/cmap3.png" alt="bus map" class="map">
-        <div class = "addtl">
+      </figure>
+      <article class = "addtl">
             <p class = "left">Frequency: Every 10 min</p>
             <p class = "right">Next Scheduled Bus: 1:30p</p>
-        </div>
-        <div class = "dir">
-          <img src="images/arrow1.png" alt="arrow icon" class="icons">
+      </article>
+      <menuitem class = "dir">
+          <img src="images/arrow1.png" alt="arrow icon" class="icone">
             <h1>Northbound.</h1>
-        </div>
+        </menuitem>
+        <article>
+          <ul class = "bus">
+            <li class="num">151</li>
+            <li class="small">Arrives in 10 min</li>
+            <li class="big">Devon/Clark 1:27p</li>
+            <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+          </ul>
+        </article>
       <hr class="direct">
-        <div class = "dir">
-            <img src="images/arrow1.png" alt="arrow icon" class="icons">
+        <menuitem class = "dir">
+            <img src="images/arrow1.png" alt="arrow icon" class="icone">
             <h1>Southbound.</h1>
-        </div>
-  </section>
+        </menuitem>
+        <article>
+          <ul class = "bus">
+            <li class="num">J14</li>
+            <li class="small">Arrives in 3 min</li>
+            <li class="big">103rd/Stony Island 1:20p</li>
+            <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+          </ul>
+        </article>
+        <article>
+          <ul class = "bus">
+            <li class="num">124</li>
+            <li class="small">Arrives in 13 min</li>
+            <li class="big">Navy Pier 1:30p</li>
+            <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+          </ul>
+        </article>
+        <menuitem class = "dir">
+            <img src="images/arrow1.png" alt="arrow icon" class="icone">
+            <h1>Reroute.</h1>
+        </menuitem>
+        <article>
+          <ul class = "bus">
+            <li class="num">6x</li>
+            <li class="small">Bypass stop</li>
+            <li class="big">Jackson Park Express</li>
+            <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+          </ul>
+        </article>
+        <menuitem class = "dir">
+            <img src="images/arrow1.png" alt="arrow icon" class="icone">
+            <h1>Out of Service.</h1>
+        </menuitem>
+      </section>
+      <article>
+        <ul class = "bus">
+          <li class="num">4</li>
+          <li class="small">Resumes 12:10a</li>
+          <li class="big">Cottage Grove</li>
+          <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+        </ul>
+      </article>
+      <article>
+        <ul class = "bus">
+          <li class="num">20</li>
+          <li class="small">Resumes 12:10a</li>
+          <li class="big">Madison</li>
+          <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+        </ul>
+      </article>
+      <article>
+        <ul class = "bus">
+          <li class="num">157</li>
+          <li class="small">Resumes 6:00a</li>
+          <li class="big">Streeterville/Taylor</li>
+          <li><img src="images/arrowb.png" alt="arrow icon" class="icon"></li>
+        </ul>
+      </article>
+  </main>
 
   </body>
 </html>

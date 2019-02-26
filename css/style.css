@@ -3,30 +3,21 @@
 }
 
 body {
-  background-color: #33378F;
+  background-color: #0500ff;
   font-family: 'Nunito', sans-serif;
   color: #ffffff;
   font-size: 10px;
   }
 
- hr.divide {
-  background-color: #999BC7;
-  margin-left: 20%;
-  margin-right: 3%;
- }
-
- hr.direct{
-   background-color: #999BC7;
-   margin-left: 3%;
-   margin-right: 3%;
- }
-  .container {
+ .container {
     margin: auto;
     width: 100%;
   }
 
   .iphone{
     display: inline-block;
+    height: 6.2em;
+    background-color: #0500ff;
   }
   .bustop {
     float: left;
@@ -35,49 +26,62 @@ body {
     width: 1.6em;
     margin-top: 2%;
   }
-  .icon{
-    position:absolute;
-    height: 2em;
-    width: 2em;
-    margin-left: 85%;
-    margin-top: 5%;
-  }
-  .icons{
-    position:absolute;
+
+  .back{
+    float: left;
     height: 2.5em;
     width: 2.5em;
-    margin-left: 85%;
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+  .icon{
+    float: right;
+    height: 2em;
+    width: 2em;
+    margin-top: -5%;
+    margin-right: 5%;
+  }
+
+  .icons{
+    float:right;
+    height: 2.5em;
+    width: 2.5em;
+    margin-right:5%;
     margin-top: 5%;
   }
 
   .icona{
-    position: absolute;
+    float:right;
     height: 2em;
     width: 2em;
-    margin-left: 85%;
-    margin-top: 5%;
+    margin-right: 5%;
+    margin-top: -5%;
     transform: rotate(90deg);
   }
 
   .icone{
-    position: absolute;
+    float:right;
     height: 2.5em;
     width: 2.5em;
-    margin-left: 84%;
+    margin-right: 5%;
     transform: rotate(90deg);
     margin-top: 5%;
   }
 
+  .topper{
+    height: 6.2em;
+    background-color: #0500ff;
+  }
   .top {
     display: inline-block;
-    background-color: #999BC7;
+    background-color: #88a0e0;
     border:.1em;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
-    border-color: #999BC7;
-    width: 95%;
+    border-color: #88a0e0;
+    width: 96%;
     height: 3.2em;
-    margin-left: 2.5%;
+    margin-left: 2%;
     margin-top: 3em;
   }
 
@@ -96,6 +100,7 @@ body {
   }
 
   .dir> h1 {
+
     font-size: 3.2em;
     font-weight: bold;
     margin-left: 3%;
@@ -106,52 +111,71 @@ body {
     display: inline-block;
     height: 6.5em;
     width: 100%;
+    background-color: #fffdf5;
+    color: #000000;
+    border-bottom: 0.05em solid #0500ff;
+
   }
 
-  .bus> h1{
-    position: absolute;
+  .num{
+    float: left;
     font-size:2.6em;
     font-weight:800;
-    vertical-align: middle;
     margin-left: 3%;
-    margin-top: .75em;
-
-
+    margin-top: 5%;
+    color: #0500ff;
   }
 
-  .bus> h2{
-    position: absolute;
+  .big{
+    display: block;
     font-size: 1.65em;
-    font-weight: 500;
-    margin-left:23% ;
-    margin-top: 1.75em;
+    font-weight: 600;
+    margin-left:20%;
 
 }
 
-.bus> p{
-  position: absolute;
+.nav{
+  height: 4.5em;
+  background-color: #ffffff;
+  margin-top: -1%;
+}
+
+.navtxt{
+  color:#000000;
+  font-size: 1.65em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.small{
+  display: block;
   font-size: 1em;
-  font-weight:400;
-  margin-left:23% ;
-  margin-top: 1.75em;
+  font-weight:600;
+  margin-left:20%;
+  margin-top: 4.5%;
+
   }
 
 .late{
-  color:#FF9999;
+  color:#FF3426;
 }
+
 
 .map{
   display: inline-block;
   height: 35em;
   width: 100%;
 
+
 }
 
 .addtl{
   display: inline-block;
-  background-color: #999BC7;
+  background-color: #88a0e0;
   height: 3em;
   width: 100%;
+  margin-top: -1%;
   color: #000000;
   font-weight: 600;
   font-size: 1.2em;
