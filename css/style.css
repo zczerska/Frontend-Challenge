@@ -14,11 +14,6 @@ body {
     width: 100%;
   }
 
-  .iphone{
-    display: inline-block;
-    height: 6.2em;
-    background-color: #0500ff;
-  }
   .bustop {
     float: left;
     margin-left: 6%;
@@ -34,20 +29,16 @@ body {
     margin-top: 3%;
     margin-left: 3%;
   }
+
+  .status{
+    display: block;
+  }
+
   .icon{
     float: right;
     height: 2em;
     width: 2em;
-    margin-top: -5%;
     margin-right: 5%;
-  }
-
-  .icons{
-    float:right;
-    height: 2.5em;
-    width: 2.5em;
-    margin-right:5%;
-    margin-top: 5%;
   }
 
   .icona{
@@ -55,7 +46,6 @@ body {
     height: 2em;
     width: 2em;
     margin-right: 5%;
-    margin-top: -5%;
     transform: rotate(90deg);
   }
 
@@ -65,7 +55,7 @@ body {
     width: 2.5em;
     margin-right: 5%;
     transform: rotate(90deg);
-    margin-top: 5%;
+    margin-top: 7%;
   }
 
   .topper{
@@ -137,14 +127,15 @@ body {
 .nav{
   height: 4.5em;
   background-color: #ffffff;
-  margin-top: -1%;
+
 }
 
 .navtxt{
+  display: block;
   color:#000000;
   font-size: 1.65em;
   font-weight: 600;
-  text-align: center;
+  margin-left: 30%;
   padding-top: 5%;
 }
 
@@ -163,7 +154,7 @@ body {
 
 
 .map{
-  display: inline-block;
+  display: block;
   height: 35em;
   width: 100%;
 
@@ -175,7 +166,6 @@ body {
   background-color: #88a0e0;
   height: 3em;
   width: 100%;
-  margin-top: -1%;
   color: #000000;
   font-weight: 600;
   font-size: 1.2em;
