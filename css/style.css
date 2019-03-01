@@ -32,7 +32,7 @@ body {
 
   .status{
     display: block;
-    width: 100%;
+    width: 37.5em;
   }
 
   .icon{
@@ -79,7 +79,7 @@ body {
   .top> h1 {
     color: #000000;
     font-weight: 900;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-left: 17%;
     margin-top: 3%;
   }
@@ -117,14 +117,6 @@ body {
     color: #0500ff;
   }
 
-  .big{
-    display: block;
-    font-size: 1.55em;
-    font-weight: 600;
-    margin-left:23%;
-    letter-spacing: -0.05em;
-}
-
 .nav{
   height: 4.5em;
   background-color: #FFFFFF;
@@ -135,16 +127,24 @@ body {
   display: block;
   color:#000000;
   font-size: 1.65em;
-  font-weight: 600;
-  margin-left: 27%;
+  font-weight: 700;
+  margin-left: 40%;
   padding-top: 5%;
+}
+
+.big{
+  display: block;
+  font-size: 1.55em;
+  font-weight: 600;
+  margin-left:30%;
+  letter-spacing: -0.1em;
 }
 
 .small{
   display: block;
   font-size: 1em;
   font-weight:600;
-  margin-left:23%;
+  margin-left:30%;
   margin-top: 5.5%;
   letter-spacing: -0.05em;
   }
@@ -158,8 +158,6 @@ body {
   display: block;
   height: 40em;
   width: 100%;
-
-
 }
 
 .addtl{
@@ -169,18 +167,18 @@ body {
   width: 100%;
   color: #000000;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 0.8em;
   letter-spacing: -0.05em;
 }
 
 .left{
   float: left;
   margin-left:3%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .right{
   float:right;
   margin-right:3%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
