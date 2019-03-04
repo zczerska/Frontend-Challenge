@@ -154,7 +154,7 @@ body {
 
   .num{
     float: left;
-    font-size:2.6em;
+    font-size:2.7em;
     font-weight:800;
     margin-left: 3%;
     margin-top: 6%;
@@ -172,7 +172,7 @@ body {
   color:#000000;
   font-size: 1.65em;
   font-weight: 700;
-  margin-left: 40%;
+  margin-left: 30%;
   padding-top: 5%;
 }
 
@@ -186,7 +186,7 @@ body {
 
 .small{
   display: block;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight:600;
   margin-left:22%;
   margin-top: 5.5%;
@@ -194,11 +194,11 @@ body {
   }
 
 .late{
-  color:#FF3426;
+  color:#AB0000;
 }
 
 .early{
-  color:#0EBB57;
+  color:#07822C;
 }
 
 
@@ -215,8 +215,8 @@ body {
   width: 100%;
   color: #000000;
   font-weight: 600;
-  font-size: 0.95em;
-  letter-spacing: -0.05em;
+  font-size: 1.2em;
+  letter-spacing: -0.03em;
 }
 
 .left{
