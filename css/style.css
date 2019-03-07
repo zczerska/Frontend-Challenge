@@ -83,6 +83,7 @@ body {
     height: 2em;
     width: 2em;
     margin-right: 5%;
+    margin-top: 7%;
   }
 
   .icona{
@@ -90,6 +91,7 @@ body {
     height: 2em;
     width: 2em;
     margin-right: 5%;
+    margin-top: 7%;
     transform: rotate(90deg);
   }
 
